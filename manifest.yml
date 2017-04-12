@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: dlott-demoapp
+  host: dlott-demoapp
+  disk_quota: 1024M
+  services:
+  - dlott-demoapp-cloudantNoSQLDB
