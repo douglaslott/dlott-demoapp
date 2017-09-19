@@ -7,4 +7,4 @@ applications:
   host: dlott-demoapp
   disk_quota: 512M
   services:
-  - dlott-demoapp-cloudantNoSQLDB
+  - dlott-cloudant-demoapp
